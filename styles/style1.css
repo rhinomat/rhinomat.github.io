@@ -1,0 +1,80 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and base font */
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #fff;
+    color: #222;
+    line-height: 1.6;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 600;
+    margin-bottom: 0.5em;
+}
+
+/* Links */
+a {
+    color: #0077cc;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+a:hover {
+    color: #005fa3;
+    text-decoration: underline;
+}
+
+/* Images */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Navigation bar */
+nav {
+    background: #f0f0f0;
+    padding: 1rem 0;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+    /*justify-content: center;*/
+    justify-content: left;
+    margin: 0;
+    padding: 0;
+}
+/*nav li {*/
+    /* Optional: add spacing or style for nav items */
+/*}*/
+nav a {
+    font-weight: 500;
+    padding: 0.5em 1em;
+    border-radius: 4px;
+}
+nav a:hover {
+    background: #e0e0e0;
+}
+
+/* Main content */
+main {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background: #f8f8f8;
+    color: #888;
+    font-size: 0.9em;
+}
