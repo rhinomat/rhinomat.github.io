@@ -46,8 +46,8 @@ nav ul {
     list-style: none;
     display: flex;
     gap: 1.5rem;
-    /*justify-content: center;*/
-    justify-content: left;
+    justify-content: center;
+    /*justify-content: left;*/
     margin: 0;
     padding: 0;
 }
