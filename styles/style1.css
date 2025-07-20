@@ -7,16 +7,14 @@
 
 /* Body and base font */
 body {
-    font-family: 'Segoe UI', Arial, sans-serif;
-    background: #fff;
-    color: #222;
+    font-family: 'Roboto', Arial, sans-serif;
+    background: #E9C46A;
+    color: #000;
     line-height: 1.6;
 }
-
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
-    font-weight: 600;
-    margin-bottom: 0.5em;
+    font-weight:900
 }
 
 /* Links */
@@ -24,10 +22,6 @@ a {
     color: #0077cc;
     text-decoration: none;
     transition: color 0.2s;
-}
-a:hover {
-    color: #005fa3;
-    text-decoration: underline;
 }
 
 /* Images */
@@ -39,7 +33,7 @@ img {
 
 /* Navigation bar */
 nav {
-    background: #f0f0f0;
+    background: #264653;
     padding: 1rem 0;
 }
 nav ul {
@@ -58,9 +52,10 @@ nav a {
     font-weight: 500;
     padding: 0.5em 1em;
     border-radius: 4px;
+    color: white;
 }
 nav a:hover {
-    background: #e0e0e0;
+    background: purple;
 }
 
 /* Main content */
@@ -69,12 +64,58 @@ main {
     margin: 2rem auto;
     padding: 0 1rem;
 }
-
+main h1 {
+    text-align: center;
+    margin: 20px auto;
+    border-color: yellow;
+    border-width: 5px;
+    border-radius: 100px;
+    padding: 10px;
+    width: 500px;
+    border-style: solid;
+}
+main h2 {
+    text-align: center;
+    background-color: #2A9D8F;
+    border-radius: 100px;
+    padding: 10px 0px 10px 0px;
+    margin: 10px auto;
+}
+.container {
+    border-color: #E76F51;
+    border-width: 5px;
+    border-radius: 5px;
+    border-style: solid;
+    padding: 10px;
+}
+main li {
+    list-style-type: none;
+    margin-left: 20px;
+}
+#projects a {
+    color: #E9C46A;
+}
+#projects a:hover {
+    color: #e76f51;
+}
+#projects a div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5em;
+    background-color: purple;
+    border-radius: 100px;
+    text-align: center;
+    width: 90%;
+    margin: 20px auto;
+    padding: 10px;
+}
+#projects a div i {
+    font-size: 1.2em;
+    vertical-align: middle;
+}
 /* Footer */
 footer {
     text-align: center;
-    padding: 1rem 0;
-    background: #f8f8f8;
-    color: #888;
-    font-size: 0.9em;
+    
 }
