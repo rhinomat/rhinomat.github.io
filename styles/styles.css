@@ -71,3 +71,23 @@ footer .github_link:active,
 footer {
   display: block;
 }
+
+canvas[id="webglheader1"] {
+  width: 100px;
+  height: 100px;
+  max-width: 100%;
+  height: auto;
+}
+canvas[id="webglheader2"] {
+  width: 100px;
+  height: 100px;
+  max-width: 100%;
+  height: auto;
+}
+
+.canvas-response {
+  width: 480px;
+  height: 320px;
+  max-width: 100%;
+  height: auto;
+}
