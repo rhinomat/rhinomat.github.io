@@ -1,0 +1,677 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="assets/favicon.ico" />
+    <link
+      href="node_modules/bootstrap/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      crossorigin="anonymous"
+    />
+    <script
+      src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Science+Gothic:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="node_modules/@fortawesome/fontawesome-free/css/all.css"
+    />
+
+    <script src="scripts/main.js" type="module"></script>
+    <title>RhinoMat.dev</title>
+  </head>
+  <body>
+    <header id="header" class="header">
+      <!--Navbar-->
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top">
+        <div class="container">
+          <div class="navbar-brand">
+            <canvas height="50" width="50" id="webglheader1"></canvas>
+          </div>
+          <div class="collapse navbar-collapse justify-content-md-center">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#About"
+                  >About</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#education"
+                  >Education</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#PrevWork"
+                  >Previous Work</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#Projects"
+                  >Projects</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#Contact"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="navbar-brand">
+            <canvas height="50" width="50" id="webglheader2"></canvas>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="pt-5">
+      <section class="py-5" id="title">
+        <div class="container text-center">
+          <h1 class="display-4 fw-bold">Welcome to my Website!</h1>
+          <p class="lead">Welcome to my Website!</p>
+          <img
+            src="assets/sb_fall25_1013.jpg"
+            alt="Fall 2025 Headshot"
+            class="img-fluid img-thumbnail rounded-circle w-25"
+          />
+        </div>
+      </section>
+      <!--About-->
+      <section id="About" class="container-fluid section p-0 about pb-4">
+        <div class="row p-3 container mx-auto section-top">
+          <div class="p-3 container mx-auto section-top text-center">
+            <h2>About</h2>
+          </div>
+          <div class="p-3">
+            <p>
+              I'm a designer, builder, nerd and problem-solver. Whatever the
+              activity may be like gaming, programming, or modeling in Blender,
+              I enjoy discovering and analyzing how things operate in order to
+              better understand them. I have always had an interest in computer
+              science. whether it be networking, computer graphics, web
+              development or learning a new quirk of Linux, I always find
+              something new to learn and take with me.
+            </p>
+            <p>
+              I'm very enthusiastic about creating and designing things that
+              might make the world a more interesting place. Right now, I'm
+              finishing my Computer Science degree at Portland State University,
+              set to graduate in June 2026.
+            </p>
+          </div>
+        </div>
+      </section>
+      <div class="container my-4">
+        <div class="row justify-content-center">
+          <div class="col-auto text-center">
+            <canvas
+              id="computer"
+              class="d-block mx-auto"
+              width="480"
+              height="320"
+            ></canvas>
+          </div>
+        </div>
+      </div>
+      <!--Previous Work-->
+      <section id="education" class="container-fluid section p-0 education">
+        <div class="p-3 container mx-auto section-top text-center">
+          <h2 class="education-heading">Educational History</h2>
+        </div>
+        <div class="container">
+          <!-- Job Entry -->
+          <div class="mb-4">
+            <div class="row">
+              <div class="col-md-6 fs-4 fw-bold text-md-start">
+                Portland State University
+              </div>
+              <div class="col-md-6 fw-light text-md-end fst-italic">
+                Portland, OR
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6 fst-italic text-md-start">
+                Major: Computer Science
+              </div>
+              <div class="col-md-6 fw-bold text-md-end">Sep 2023 - Present</div>
+            </div>
+            <div class="row">
+              <div class="col-md-6 fst-italic text-md-start">
+                Minor: Business Administration
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6 fst-italic text-md-start">GPA: 3.6</div>
+            </div>
+            <div>
+              <h5>Areas of Interest (Major Oriented)</h5>
+              <ul>
+                <li>Computer Graphics</li>
+                <li>Blender</li>
+                <li>Software Development Methodologies</li>
+                <li>Data Structures and Algorithms</li>
+                <li>Group Theory and Applications in Mathematics</li>
+                <li>Some Rust Programming</li>
+                <li>
+                  Database Management (such as data entry and manipulation)
+                </li>
+                <li>Computational Structures</li>
+                <li>Fractal Graphics using Python and C</li>
+              </ul>
+            </div>
+          </div>
+          <hr class="my-4" />
+          <!-- Job Entry -->
+          <div class="mb-4">
+            <div class="row">
+              <div class="col-md-6 fs-4 fw-bold text-md-start">
+                Mt. Hood Community College
+              </div>
+              <div class="col-md-6 fw-light text-md-end fst-italic">
+                Portland, OR
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6 fst-italic text-md-start">
+                Major: Computer Science
+              </div>
+              <div class="col-md-6 fw-bold text-md-end">
+                Sept 2020 - Aug 2023
+              </div>
+            </div>
+            <div>
+              <h5>Areas of Interest (Major Oriented)</h5>
+              <ul>
+                <li>programming basics in C++</li>
+                <li>Networking basics including Cisco Packet Tracer</li>
+                <li>Website and web application practices</li>
+                <li>Cybersecurity</li>
+                <li>Linux structure and functionality</li>
+                <li>A little Unity with C# for game programming</li>
+                <li>Discrete structures and logic systems</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--Previous Work-->
+      <section id="PrevWork" class="container-fluid section p-0 PrevWork">
+        <div class="p-3 container mx-auto section-top text-center">
+          <h2 class="previous-work-heading">Previous Work</h2>
+        </div>
+
+        <div class="container">
+          <!-- Job Entry -->
+          <div class="mb-4">
+            <div class="row">
+              <div class="col-md-6 fs-4 fw-bold text-md-start">
+                Portland State University
+              </div>
+              <div class="col-md-6 fw-light text-md-end fst-italic">
+                Portland, OR
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6 fs-4 text-md-start">
+                Human Resources Management Association
+              </div>
+              <div class="col-md-6 fw-bold text-md-end">Oct 2025 - Present</div>
+            </div>
+            <div class="row">
+              <div class="col-md-6 fst-italic text-md-start">
+                Director of Information Systems
+              </div>
+            </div>
+            <ul>
+              <li>
+                Managing and updating the HRMA Website, Membership Database and
+                Wix information.
+              </li>
+              <li>
+                Ensuring accurate and engaging content on the home webpage via
+                working with the President and VP of Marketing
+              </li>
+            </ul>
+          </div>
+          <hr class="my-4" />
+          <!-- Job Entry -->
+          <div class="mb-4">
+            <div class="row">
+              <div class="col-md-6 fs-4 fw-bold text-md-start">
+                Mt. Hood Community College
+              </div>
+              <div class="col-md-6 fw-light text-md-end fst-italic">
+                Gresham, OR
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6 fst-italic text-md-start">
+                Computer Science Tutor
+              </div>
+              <div class="col-md-6 fw-bold text-md-end">
+                Nov 2022 - Sept 2023
+              </div>
+            </div>
+            <ul>
+              <li>
+                Assisted 150+ students enrolled in Computer Science courses with
+                tasks and concepts related to course homework for programming
+                languages such as C++ as a primary language and partially
+                Python.
+              </li>
+              <li>
+                Administered alternative solutions to help students achieve
+                academic success in their Computer Science courses via Zoom
+                meetings (walk-in & by appointment)
+              </li>
+              <li>
+                Verified completed assignments from select students as
+                instructed by professors of the Computer Science program in
+                order to aid selected students in gaining academic achievement
+                that they wouldn't achieve otherwise
+              </li>
+            </ul>
+          </div>
+          <hr class="my-4" />
+          <!-- Job Entry -->
+          <div class="mb-4">
+            <div class="row">
+              <div class="col-md-6 fs-4 fw-bold text-md-start">
+                Mt. Hood Community College
+              </div>
+              <div class="col-md-6 fw-light text-md-end fst-italic">
+                Gresham, OR
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6 fst-italic text-md-start">
+                Technical Assistant
+              </div>
+              <div class="col-md-6 fw-bold text-md-end">
+                Nov 2022 - Sept 2023
+              </div>
+            </div>
+            <ul>
+              <li>
+                Assisted students and staff with tasks such as technology,
+                getting account passwords reset for email, blackboard, and the
+                myMHCC portal
+              </li>
+              <li>
+                Facilitated assistance with computer technology related
+                assignments brought in by students of MHCC
+              </li>
+              <li>
+                Administered technology related solutions to questions about
+                primarily Microsoft and related operating systems
+              </li>
+              <li>
+                Assisted a class taught at MHCC teaching the community and
+                marginalized groups how to use Microsoft Office applications and
+                technology along with computer basics
+              </li>
+            </ul>
+          </div>
+          <hr class="my-4" />
+          <!-- Job Entry -->
+          <div class="mb-4">
+            <div class="row">
+              <div class="col-md-6 fs-4 fw-bold text-md-start">Lowe’s Inc.</div>
+              <div class="col-md-6 fw-light text-md-end fst-italic">
+                Wood Village, OR
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6 fst-italic text-md-start">Cashier</div>
+              <div class="col-md-6 fw-bold text-md-end">
+                May 2022 - Sept 2022
+              </div>
+            </div>
+            <ul>
+              <li>
+                Collaborated with team members to ensure excellent customer
+                service and made sure that sales were processed quickly and
+                accurately with a high priority to meet weekly sales goals
+              </li>
+              <li>
+                Assisted 400+ customers every week to ensure 90%+ customer
+                satisfaction in both sales and customer service
+              </li>
+              <li>
+                Maintained a robust knowledge of product inventory to assist and
+                direct 400+ weekly customers to the appropriate part of the
+                store based on their needs
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <div class="container my-4">
+        <div class="row justify-content-center">
+          <div class="col-auto text-center">
+            <canvas
+              id="cd"
+              class="d-block mx-auto"
+              width="480"
+              height="320"
+            ></canvas>
+          </div>
+        </div>
+      </div>
+
+      <!--Projects-->
+      <section id="Projects" class="container-fluid section p-0 Projects">
+        <div class="container mt-5 mb-0">
+          <div class="p-3 container mx-auto section-top text-center">
+            <h2>Projects</h2>
+          </div>
+          <div class="row g-4">
+            <!-- Project Card -->
+            <div class="col-12">
+              <div class="card h-100 shadow-sm">
+                <div class="card-body">
+                  <h3 class="card-title h3">The Future of Mail</h3>
+                  <p class="text-muted mb-1">Category: Game Programming</p>
+                  <p class="text-muted mb-3">Language: Rust</p>
+
+                  <h4>Description</h4>
+                  <ul>
+                    <li>Used Bevy, which is a Rust based Game Engine</li>
+                    <li>Designed and painted all models using Blender</li>
+                    <li>
+                      Game is about a little robot in a circle city with the
+                      goal of delivering mail and gaining points
+                    </li>
+                    <li>
+                      Fail condition is to hit a building or the edge of the
+                      city
+                    </li>
+                    <li>uses .GLB models</li>
+                  </ul>
+
+                  <a
+                    href="https://github.com/rhinomat/The-Future-of-Mail"
+                    class="btn btn-dark mt-2"
+                    target="_blank"
+                  >
+                    <i class="fa-brands fa-github-alt me-2"></i> Source
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Project Card -->
+            <div class="col-12">
+              <div class="card h-100 shadow-sm">
+                <div class="card-body">
+                  <h3 class="card-title h5">
+                    Programming Language Interpreter
+                  </h3>
+                  <p class="text-muted mb-1">
+                    Category: Programming Language Concepts
+                  </p>
+                  <p class="text-muted mb-3">Language: Python</p>
+
+                  <h4>Description</h4>
+                  <ul>
+                    <li>Used Dataclasses and Lark functionality</li>
+                    <li>
+                      Designed a mininature programming language that could do
+                      Base aspects of programming languages like arithmetic,
+                      functions, loops, if/else
+                    </li>
+                    <li>
+                      Programming language also needed a domain extension to add
+                      functionality, I added String functionality like splicing
+                      and replacement and other aspects
+                    </li>
+                  </ul>
+
+                  <a
+                    href="https://github.com/rhinomat/Programming-Languages-Interpreter-Project"
+                    class="btn btn-dark mt-2"
+                    target="_blank"
+                  >
+                    <i class="fa-brands fa-github-alt me-2"></i> Source
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Project Card -->
+            <div class="col-12">
+              <div class="card h-100 shadow-sm">
+                <div class="card-body">
+                  <h3 class="card-title h5">Medieval Graphics Project</h3>
+                  <p class="text-muted mb-1">Category: Computer Graphics</p>
+                  <p class="text-muted mb-3">Language: Python</p>
+
+                  <h4>Description</h4>
+                  <ul>
+                    <li>
+                      Used OpenGL and Pygame to have graphics loading and
+                      keymapping for different aspects of the simulation
+                    </li>
+                    <li>
+                      Designed and painted all models in BlockBench and moved
+                      over to Blender for mesh adjustment
+                    </li>
+                    <li>uses .OBJ models</li>
+                    <li>
+                      all model animations are done mathematically and not using
+                      some engine
+                    </li>
+                    <li>I did this in a 2 person group as a team project</li>
+                  </ul>
+
+                  <a
+                    href="https://github.com/rhinomat/Medieval-Graphics"
+                    class="btn btn-dark mt-2"
+                    target="_blank"
+                  >
+                    <i class="fa-brands fa-github-alt me-2"></i> Source
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Project Card -->
+            <div class="col-12">
+              <div class="card h-100 shadow-sm">
+                <div class="card-body">
+                  <h3 class="card-title h5">Fractals Portfolio</h3>
+                  <p class="text-muted mb-1">Category: Computer Graphics</p>
+                  <p class="text-muted mb-3">Language: Python</p>
+
+                  <h4>Description</h4>
+                  <ul>
+                    <li>
+                      I used Python with supplemental packages to construct
+                      fractal designs for my portfolio
+                    </li>
+                    <li>
+                      Bitmaps can be taken from the programs and converted into
+                      pngs or gifs
+                    </li>
+                    <li>
+                      The software uses a set of files i got for the class and
+                      not a specific package
+                    </li>
+                    <li>
+                      I originally wrote the programs in C but converted them to
+                      python for ease of execution
+                    </li>
+                  </ul>
+
+                  <a
+                    href="https://github.com/rhinomat/Fractals-Portfolio"
+                    class="btn btn-dark mt-2"
+                    target="_blank"
+                  >
+                    <i class="fa-brands fa-github-alt me-2"></i> Source
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Project Card -->
+            <div class="col-12">
+              <div class="card h-100 shadow-sm">
+                <div class="card-body">
+                  <h3 class="card-title h5">CheckListDataBase</h3>
+                  <p class="text-muted mb-1">
+                    Category: Database Management, Utilities
+                  </p>
+                  <p class="text-muted mb-3">Language: Python + SQL</p>
+
+                  <h4>Description</h4>
+                  <ul>
+                    <li>
+                      This is 2 programs that achieve the same thing in 2 ways
+                    </li>
+                    <li>
+                      1 program uses SQLite integration with a TUI to make
+                      checklist entries, modify them and view them. this also
+                      save the entries to a DB file using SQLite
+                    </li>
+                    <li>
+                      The other program achieves the same thing only instead of
+                      TUI it uses a TKinter interface to insert data entries,
+                      click on them to mark or unmark completion and delete
+                      them.
+                    </li>
+                  </ul>
+
+                  <a
+                    href="https://github.com/rhinomat/CheckListDataBase"
+                    class="btn btn-dark mt-2"
+                    target="_blank"
+                  >
+                    <i class="fa-brands fa-github-alt me-2"></i> Source
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Project Card -->
+            <div class="col-12">
+              <div class="card h-100 shadow-sm">
+                <div class="card-body">
+                  <h3 class="card-title h5">rhinomat.github.io</h3>
+                  <p class="text-muted mb-1">Category: Web Development</p>
+                  <p class="text-muted mb-3">Languages: HTML, CSS, JS</p>
+
+                  <h4>Description</h4>
+                  <ul>
+                    <li>
+                      This website was with vanilla HTML and CSS; however, I
+                      eventually implemented some Javascript using ThreeJS.
+                    </li>
+                    <li>
+                      I was going to use NEXTJS and realized I have no idea how
+                      it works, so I went with Vanilla structuring
+                    </li>
+                    <li>It is mainly my public facing portfolio page</li>
+                  </ul>
+
+                  <a
+                    href="https://github.com/rhinomat/rhinomat.github.io"
+                    class="btn btn-dark mt-2"
+                    target="_blank"
+                  >
+                    <i class="fa-brands fa-github-alt me-2"></i> Source
+                  </a>
+                </div>
+              </div>
+            </div>
+            <!-- Project Card -->
+            <div class="col-12">
+              <div class="card h-100 shadow-sm">
+                <div class="card-body">
+                  <h3 class="card-title h5">Restaurant Safety App</h3>
+                  <p class="text-muted mb-1">
+                    Category: Web / Mobile Application
+                  </p>
+                  <p class="text-muted mb-3">
+                    Programming Language: HTML, CSS, JS/JSX, TS
+                  </p>
+
+                  <h4>Description</h4>
+                  <ul>
+                    <li>Android App built with React Native</li>
+                    <li>Backend made with ExpressJS</li>
+                    <li>
+                      Built to track Safety Regulation talks and walk monitoring
+                      in Restaurants
+                    </li>
+                    <li>Team used Scrum/Agile Methodologies</li>
+                    <li>My main role was mobile UI</li>
+                  </ul>
+
+                  <a
+                    href="https://github.com/Safeli-F25/f25-capstone-team-index"
+                    class="btn btn-dark mt-2"
+                    target="_blank"
+                  >
+                    <i class="fa-brands fa-github-alt me-2"></i> Source
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="bg-dark text-light py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8" id="Contact">
+            <h5>Contact</h5>
+            <p>
+              Have a question or want to work together? Send a message and I'll
+              get back to you.
+            </p>
+          </div>
+          <div class="col-md-4 mt-4 mt-md-0">
+            <h5>Contact Info</h5>
+            <ul class="list-unstyled">
+              <li><i class="fa-solid fa-location-dot me-2"></i>Portland, OR</li>
+              <li>
+                <i class="fa-solid fa-envelope me-2"></i
+                >ryanmatthewsbiz@gmail.com
+              </li>
+              <li>
+                <i class="fa-brands fa-linkedin me-2"></i
+                ><a
+                  href="https://www.linkedin.com/in/ryanmatth/"
+                  target="_blank"
+                  class="linkedin_link"
+                  >ryanmatth/</a
+                >
+              </li>
+              <li>
+                <i class="fa-brands fa-github-alt me-2"></i
+                ><a
+                  href="https://github.com/rhinomat"
+                  target="_blank"
+                  class="github_link"
+                  >rhinomat</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

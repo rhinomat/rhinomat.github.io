@@ -1,0 +1,73 @@
+body {
+  font-family: "Science Gothic", sans-serif !important;
+}
+.navbar {
+  background-color: var(--bs-purple) !important;
+}
+.nav-link:hover {
+  color: lightblue !important;
+}
+main {
+  background-color: lightyellow !important;
+}
+#title {
+  color: var(--bs-purple) !important;
+}
+.about {
+  background-color: var(--bs-purple) !important;
+  color: lightyellow;
+}
+.education {
+  color: var(--bs-purple) !important;
+}
+ul {
+  list-style-type: none;
+}
+.PrevWork {
+  color: var(--bs-purple) !important;
+}
+.Projects {
+  color: lightyellow !important;
+  background-color: var(--bs-purple) !important;
+}
+.Projects {
+  padding-bottom: 50px !important;
+}
+.linkedin_link:link {
+  color: white !important;
+}
+footer .linkedin_link,
+.bg-dark .linkedin_link {
+  color: #ffffff !important;
+  text-decoration: none;
+}
+footer .linkedin_link:hover,
+footer .linkedin_link:focus,
+footer .linkedin_link:active,
+.bg-dark .linkedin_link:hover,
+.bg-dark .linkedin_link:focus,
+.bg-dark .linkedin_link:active {
+  color: #ffffff !important;
+  text-decoration: underline;
+}
+.github_link:link {
+  color: white !important;
+}
+footer .github_link,
+.bg-dark .github_link {
+  color: #ffffff !important;
+  text-decoration: none;
+}
+footer .github_link:hover,
+footer .github_link:focus,
+footer .github_link:active,
+.bg-dark .github_link:hover,
+.bg-dark .github_link:focus,
+.bg-dark .github_link:active {
+  color: #ffffff !important;
+  text-decoration: underline;
+}
+
+footer {
+  display: block;
+}
